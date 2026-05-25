@@ -15,12 +15,8 @@ This project leverages advanced data analytics and machine learning to optimize 
 
 ### Key Capabilities
 - **RFM Analysis:** Segmentation of customers into high-value, casual, and at-risk groups using K-Means clustering.
-- **Predictive Analytics:** Random Forest classification model to identify churn probability with 98.9% accuracy.
+- **Predictive Analytics:** Random Forest classification model to identify churn probability.
 - **Interactive Dashboard:** A comprehensive Streamlit interface providing actionable business intelligence.
-
-### Tech Stack
-- **Languages:** Python
-- **Libraries:** Pandas, Scikit-Learn, Seaborn, Streamlit
 
 ---
 
@@ -30,24 +26,31 @@ Dieses Projekt nutzt Data Analytics und Machine Learning zur Optimierung der E-C
 
 ### Kernfunktionen
 - **RFM-Analyse:** Segmentierung der Kunden in profitable, Gelegenheits- und abwanderungsgefährdete Gruppen mittels K-Means-Clustering.
-- **Predictive Analytics:** Random-Forest-Klassifikationsmodell zur Identifikation von Abwanderungswahrscheinlichkeiten mit 98,9% Genauigkeit.
+- **Predictive Analytics:** Random-Forest-Klassifikationsmodell zur Identifikation von Abwanderungswahrscheinlichkeiten.
 - **Interaktives Dashboard:** Ein umfassendes Streamlit-Interface zur Bereitstellung handlungsorientierter Business-Insights.
 
-### Technischer Stack
-- **Sprache:** Python
-- **Bibliotheken:** Pandas, Scikit-Learn, Seaborn, Streamlit
-
 ---
 
-## Data Source
-The dataset used for this project is the **Online Retail II** dataset, provided by the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
+## How to Run the Project
 
----
+### 1. Prerequisites
+Ensure you have Python installed. Then, install the required libraries:
+```bash
+pip install -r requirements.txt
+```
+## 2. Prepare Data
+Download the Online Retail II dataset from the official UCI Machine Learning Repository.
 
-## Project Workflow
-1. **Data Engineering:** Consolidating multi-year transaction data (located in `/data`) and rigorous data cleansing.
-2. **Feature Engineering:** Deriving RFM metrics to quantify customer behavior.
-3. **Modeling:** Implementing scalable ML pipelines for segmentation and classification (see `/notebooks`).
-4. **Deployment:** Providing a decision-support tool via an interactive dashboard (`app.py`).
+Place the file online_retail_II.xlsx in the root folder of this project.
 
-*This system translates complex statistical models into clear, strategic recommendations for SEO and marketing optimization.*
+## 3. Launch Dashboard
+Run the following command in your terminal to start the interactive dashboard:
+```bash
+streamlit run app.py
+```
+## Tech Stack
+- Languages: Python
+
+- Libraries: Pandas, Scikit-Learn, Seaborn, Streamlit
+
+This system translates complex statistical models into clear, strategic recommendations for business optimization.
