@@ -1,57 +1,70 @@
-# E-Commerce Customer Intelligence & Churn Prediction System
-
-[🇬🇧 English](#english) | [🇩🇪 Deutsch](#deutsch)
-
----
-
-## Dashboard Preview
-![Dashboard Preview](dashboard_preview.png)
+# Hi there, I'm Siamak 👋  
+### Business & Data Analyst | Process Optimization | CRM/ERP | Python & SQL
 
 ---
 
-<a name="english"></a>
-## 🇬🇧 English
-This project leverages advanced data analytics and machine learning to optimize e-commerce performance. By utilizing the *Online Retail II* dataset, the system implements a two-fold analytical approach: **Customer Segmentation** to maximize Customer Lifetime Value (CLV) and **Churn Prediction** to proactively retain customers.
-
-### Key Capabilities
-- **RFM Analysis:** Segmentation of customers into high-value, casual, and at-risk groups using K-Means clustering.
-- **Predictive Analytics:** Random Forest classification model to identify churn probability.
-- **Interactive Dashboard:** A comprehensive Streamlit interface providing actionable business intelligence.
+## Profile
+Business & Data Analyst with strong experience in **requirements engineering**, **process optimization**, and **CRM/ERP systems**.  
+Skilled in data analysis with Python/R and capable of building ETL workflows, predictive models, and SQL-based data solutions.
 
 ---
 
-<a name="deutsch"></a>
-## 🇩🇪 Deutsch
-Dieses Projekt nutzt Data Analytics und Machine Learning zur Optimierung der E-Commerce-Performance. Auf Basis des *Online Retail II*-Datensatzes verfolgt das System einen zweistufigen analytischen Ansatz: **Kundensegmentierung** zur Steigerung des Customer Lifetime Value (CLV) und **Churn-Prävention** zur proaktiven Kundenbindung.
+## Core Skills
 
-### Kernfunktionen
-- **RFM-Analyse:** Segmentierung der Kunden in profitable, Gelegenheits- und abwanderungsgefährdete Gruppen mittels K-Means-Clustering.
-- **Predictive Analytics:** Random-Forest-Klassifikationsmodell zur Identifikation von Abwanderungswahrscheinlichkeiten.
-- **Interaktives Dashboard:** Ein umfassendes Streamlit-Interface zur Bereitstellung handlungsorientierter Business-Insights.
+### Business & CRM
+- Digital Transformation & E‑Government Systems  
+- BPMN, Requirements Engineering  
+- Process Optimization & Automation  
+- Agile (Scrum/Kanban), Project Management  
+- CRM/ERP Systems (Salesforce, Dynamics)
+
+### Data Analysis & Statistics  
+*(Hands‑on projects)*
+- Python (Pandas, NumPy, Scikit‑Learn, Matplotlib, Seaborn)  
+- R (ANOVA, Regression, Hypothesis Testing)  
+- Statistical Reporting  
+- Google Analytics 4, Search Console
+
+### Data Engineering & Databases  
+*(Hands‑on projects)*  
+- SQL Server (T‑SQL), MySQL  
+- ETL with Python (Pandas, PyODBC)  
+- Data Warehousing, Star Schema, SCD  
+- JSON Processing & Data Migration
 
 ---
 
-## How to Run the Project
+## Selected Projects
 
-### 1. Prerequisites
-Ensure you have Python installed. Then, install the required libraries:
-```bash
-pip install -r requirements.txt
-```
-## 2. Prepare Data
-### 2. Prepare Data
-Download the **Online Retail II** dataset from the official [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
+### 📌 E‑Commerce Customer Intelligence & Churn Prediction System  
+Advanced analytics system using the **Online Retail II** dataset.  
+- **RFM Segmentation** with K‑Means  
+- **Churn Prediction** using Random Forest  
+- **Interactive Streamlit Dashboard**  
+- Business insights for CLV optimization and retention strategy
 
-> **Note:** After downloading, please place the file `online_retail_II.xlsx` in the **root folder** of this project.
+### 📌 E‑Government Licensing System  
+Automated licensing for 600+ companies → **90% time reduction**
 
-## 3. Launch Dashboard
-Run the following command in your terminal to start the interactive dashboard:
-```bash
-streamlit run app.py
-```
-## Tech Stack
-- Languages: Python
+### 📌 CRM System (SQL)  
+Loyalty program, RBAC, automated inventory triggers
 
-- Libraries: Pandas, Scikit-Learn, Seaborn, Streamlit
+### 📌 Statistical Analysis Portfolio (R)  
+ANOVA, regression, business analytics, power analysis
 
-This system translates complex statistical models into clear, strategic recommendations for business optimization.
+### 📌 Retail Data Warehouse  
+ETL pipelines, SCD, RFM analysis, SQL Server DWH
+
+### 📌 JSON Migration Tool (T‑SQL)  
+Parsing nested JSON into normalized relational tables
+
+---
+
+## Education
+**M.Sc. in IT (E‑Commerce)** — recognized in Germany
+
+---
+
+## Contact
+📧 siamak.goudarzi@gmx.de  
+🔗 https://github.com/SiamakGoudarzi
