@@ -39,9 +39,10 @@ Ensure you have Python installed. Then, install the required libraries:
 pip install -r requirements.txt
 ```
 ## 2. Prepare Data
-Download the Online Retail II dataset from the official UCI Machine Learning Repository.
+### 2. Prepare Data
+Download the **Online Retail II** dataset from the official [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
 
-Place the file online_retail_II.xlsx in the root folder of this project.
+> **Note:** After downloading, please place the file `online_retail_II.xlsx` in the **root folder** of this project.
 
 ## 3. Launch Dashboard
 Run the following command in your terminal to start the interactive dashboard:
